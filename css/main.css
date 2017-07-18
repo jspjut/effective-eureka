@@ -68,8 +68,16 @@ a:hover {
     padding: 10px 0;
 }
 
-.item-tag {
+/* .item-tag {
     background-color: var(--accent);
+} */
+
+.item-tag {
+    padding: 0px 4px 0 4px;
+    border-color: var(--accent);
+    color: var(--accent);
+    background-color: var(--backgroundColor);
+    border: 2px solid;
 }
 
 /*navigation bar icons*/
