@@ -1,15 +1,15 @@
-baseURL = "http://example.com/"
+baseURL = "http://ee.cor.ninja/"
 languageCode = "en-us"
-title = "Minimal"
+title = "Effective Eureka"
 theme = "minimal"
 
 [params]
-    author = "Calin Tataru"
-    description = "Personal blog theme powered by Hugo"
+    author = "Johan"
+    description = "A fantasy universe"
     githubUsername = "#"
-    accent = "red"
+    accent = "rebeccapurple"
     showBorder = true
-    backgroundColor = "white"
+    backgroundColor = "ghostwhite"
     font = "Quicksand" # should match the name on Google Fonts!
     highlight = true
     highlightStyle = "solarized-dark"
@@ -25,36 +25,36 @@ theme = "minimal"
     name = "Posts"
     weight = 2
 
-[[menu.main]]
-    url = "/project/"
-    name = "Projects"
-    weight = 3
+#[[menu.main]]
+#    url = "/project/"
+#    name = "Projects"
+#    weight = 3
 
 # Social icons to be shown on the right-hand side of the navigation bar
 # The "name" field should match the name of the icon to be used
 # The list of available icons can be found at http://fontawesome.io/icons/
 
-[[menu.icon]]
-    url = "mailto:me@example.com"
-    name = "envelope-o"
-    weight = 1
+#[[menu.icon]]
+#    url = "mailto:me@example.com"
+#    name = "envelope-o"
+#    weight = 1
 
-[[menu.icon]]
-    url = "https://github.com/username/"
-    name = "github"
-    weight = 2
+#[[menu.icon]]
+#    url = "https://github.com/username/"
+#    name = "github"
+#    weight = 2
 
-[[menu.icon]]
-    url = "https://twitter.com/username/"
-    name = "twitter"
-    weight = 3
+#[[menu.icon]]
+#    url = "https://twitter.com/username/"
+#    name = "twitter"
+#    weight = 3
 
-[[menu.icon]]
-    url = "https://www.linkedin.com/in/username/"
-    name = "linkedin"
-    weight = 4
+#[[menu.icon]]
+#    url = "https://www.linkedin.com/in/username/"
+#    name = "linkedin"
+#    weight = 4
 
-[[menu.icon]]
-    url = "https://www.stackoverflow.com/username/"
-    name = "stack-overflow"
-    weight = 5
+#[[menu.icon]]
+#    url = "https://www.stackoverflow.com/username/"
+#    name = "stack-overflow"
+#    weight = 5
