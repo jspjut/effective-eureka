@@ -1,0 +1,22 @@
+<div class="item">
+
+    {{ if eq .Type "post" }}
+
+        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+
+        <h5 class="text-muted">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006") }}</h5>  
+
+        {{ range .Params.tags }} <a href="/tags/{{ . }}" class="btn item-tag ">{{ . }}</a> {{ end }}
+
+    {{ else if eq .Type "project" }}
+
+        <!-- <h4><a href="https://github.com/{{ .Site.Params.githubUsername }}/{{ .Params.repo }}/">{{ .Title }}</a></h4> -->
+        <h4><a href="{{ .RelPermalink }}">{{ .Title }}</a></h4>
+
+        <h5>{{ .Description }}</h5>
+
+        {{ range .Params.tags }} <a href="/tags/{{ . }}" class="btn item-tag ">{{ . }}</a> {{ end }}
+
+    {{ end }}
+
+</div>
