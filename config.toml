@@ -23,6 +23,11 @@ theme = "minimal"
 [[menu.main]]
     url = "/post/"
     name = "Posts"
+    weight = 3
+
+[[menu.main]]
+    url = "/story/"
+    name = "Stories"
     weight = 2
 
 #[[menu.main]]
