@@ -1,6 +1,7 @@
 ---
 title: "Schools"
 date: 2017-07-18
+update: 2017-07-18
 tags: ["magic", "schools", "origin", "quell", "tweak"]
 draft: false
 ---

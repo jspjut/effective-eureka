@@ -1,6 +1,7 @@
 ---
 title: "Origin Story"
 date: 2017-07-18
+update: 2017-07-18
 tags: ["origin", "magic", "schools"]
 draft: true
 ---
